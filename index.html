@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    
+    <!-- <link rel="stylesheet" href="css/magical-slate.css"> -->
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- <script src="js/classes/ColorPalette.class.js"></script> -->
+    <!-- <script>
+        var s = '{"first_name" : "Sammy", "last_name" : "Shark", "location" : "Ocean"}';
+
+        var obj = JSON.parse(s);
+
+        document.getElementById('user').textContent =
+        "Name: " + obj.first_name + " " + obj.last_name + "<br>" +
+        "Location: " + obj.location;
+    </script>  -->
+</head>
+<body>
+    <h2>Convert a string into a date object.</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        var text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
+        var obj = JSON.parse(text);
+        obj.birth = new Date(obj.birth);
+        document.getElementById("demo").textContent = obj.name + ", " + obj.birth; 
+</script>
+</body>
+</html>
