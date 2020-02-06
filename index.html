@@ -3,6 +3,195 @@
 <head>
     <meta charset="utf-8">
     <title>test</title>
+<<<<<<< HEAD
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="fonts/SevenOneEight-Black.ttf">
+    <link rel="stylesheet" href="fonts/SevenOneEight-Book.ttf">
+    <link rel="stylesheet" href="fonts/SevenOneEight-ExtraBold.ttf">
+    <link rel="stylesheet" href="fonts/SevenOneEight-Light.ttf">
+    <link rel="stylesheet" href="fonts/SevenOneEight-Medium.ttf">
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="js/destinations.js"></script>
+
+</head>
+<body>
+    <h1  class="container col-sm-12 text-center">DÉCOUVREZ LES OFFRES DU MOMENT</h1>
+    <h2  class="container col-sm-12 text-center">VOL + HÔTEL JUSQU'À -70%</h2>
+    <hr>
+
+    <div class="container col-sm-12 text-center">
+        <svg class="bi bi-bar-chart" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M6 13H4v3h2v-3zm5-4H9v7h2V9zm5-5h-2v12h2V4zm-2-1a1 1 0 00-1 1v12a1 1 0 001 1h2a1 1 0 001-1V4a1 1 0 00-1-1h-2zM8 9a1 1 0 011-1h2a1 1 0 011 1v7a1 1 0 01-1 1H9a1 1 0 01-1-1V9zm-5 4a1 1 0 011-1h2a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1v-3z" clip-rule="evenodd"/>
+        </svg>
+        DESTINATIONS
+        <button class="btn btn-primary dropdown-togle" type="button" data-toggle="dropdown"><svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M12.442 12.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M8.5 14a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM15 8.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/></svg></button>
+        <ul class="dropdown-menu">
+            <input type="text" class="form-control" id="myInput" placeholder="Chercher..">
+            <li><a href="#">Dubaï</a></li>
+            <li><a href="#">Maurice</a></li>
+            <li><a href="#">Bali & Gili</a></li>
+            <li><a href="#">Atoll de Noonu</a></li>
+            <li><a href="#">Koh Samui</a></li>
+            <li><a href="#">Grand Baie</a></li>
+            <li><a href="#">Sri Lanka</a></li>
+            <li><a href="#">Tokyo</a></li>
+            <li><a href="#">De Hanoï à Hoi An</a></li>
+        </ul>
+    </div>
+
+    <br>
+    <section id="countryALL" class="container row col-sm-12">
+        
+    <div id="carouselCityLBH" class="carousel slide col-sm-4" data-ride="carousel">
+        <div class="carousel-inner card">
+          <div class="carousel-item active">
+            <div class="numbertext">1 / 3</div>
+            <p id="uptoLBH"></p>
+            <img class="d-block w-100" src="img/LAGUNA_BEACH.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <div class="numbertext">2 / 3</div>
+            <img class="d-block w-100" src="img/FAIRMONT_DUBAI.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <div class="numbertext">3 / 3</div>
+            <img class="d-block w-100" src="img/LAGUNA_BEACH.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselCityLBH" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselCityLBH" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="info col-sm-12 card-body">
+            <p id="countryLBH"></p>
+            <p id="hotelLBH"></p>
+            <button id="tagLBHP" type="button" class="btn btn-primary btn-sm" disabled></button>
+            <button id="tagLBHO" type="button" class="btn btn-primary btn-sm" disabled></button>
+        </div>
+    </div>
+
+
+    <div id="carouselCityIRS" class="carousel slide col-sm-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="numbertext">1 / 3</div>
+            <p id="uptoIRS"></p>
+            <img class="d-block w-100" src="img/IMPIANA_RESORT_SAMUI.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <div class="numbertext">2 / 3</div>
+            <img class="d-block w-100" src="img/FAIRMONT_DUBAI.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <div class="numbertext">3 / 3</div>
+            <img class="d-block w-100" src="img/IMPIANA_RESORT_SAMUI.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselCityIRS" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselCityIRS" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="info col-sm-12 card-body">
+            <p id="countryIRS"></p>
+            <p id="hotelIRS"></p>
+            <button id="tagLIRP" type="button" class="btn btn-primary btn-sm" disabled></button>
+            <button id="tagLIRO" type="button" class="btn btn-primary btn-sm" disabled></button>
+        </div>
+    </div>
+
+    <div id="carouselCityGAH" class="carousel slide col-sm-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="numbertext">1 / 3</div>
+            <p id="uptoGAH"></p>
+            <img class="d-block w-100" src="img/ENTRE_CULTURE_ET_PLAGES.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <div class="numbertext">2 / 3</div>
+            <img class="d-block w-100" src="img/FAIRMONT_DUBAI.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <div class="numbertext">3 / 3</div>
+            <img class="d-block w-100" src="img/ENTRE_CULTURE_ET_PLAGES.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselCityGAH" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselCityGAH" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="info col-sm-12 card-body">
+            <p id="countryGAH"></p>
+            <p id="hotelGAH"></p>
+            <button id="tagLGAP" type="button" class="btn btn-primary btn-sm" disabled></button>
+            <button id="tagLGAO" type="button" class="btn btn-primary btn-sm" disabled></button>
+        </div>
+    </div>
+
+    </section>
+
+    <br>
+    <div class="col-sm-12 text-center">
+    <h3>COMMENT DÈNÈFICIER DE L'OFFRE</h3>
+    <strong > 150€ DE RéDUCTION* DÈS 1000€ D'ACHAT</strong>
+    <hr>
+    </div>
+
+    <section class="container col-sm-12 text-center membre">
+        <br>
+        <p>Déja membre ?</p>
+        <p>votre code promo vous attend directement sur le site <a href="#">en cliquant ici</a></p>
+        <br>
+    </section>
+    <!-- <section class="container row col-sm-12 text-center">
+        <div class="col-sm-4">
+            <p>REJOIGNEZ</p>
+            <p class="red">EMIRATES | THE LIST</p>
+        </div>
+        <div class="col-sm-4">
+            <p>RECEVEZ PAR EMAIL</p>
+            <p class="red">VOTRE BON DE 150€ OFFERT</p>
+            <p>À UTILISER DÈs 1000€ D'ACHAT</p>
+        </div>
+        <div class="col-sm-4">
+            <p>RESERVEZ VOTRE...</p>
+            <p>AVANT LE 30 AVRIL...</p>
+        </div>
+    </section> -->
+    <br>
+    <div class="col-sm-12 text-center"><button type="button" id="inscris" class="btn btn-primary btn-sm">JE M'INSCRIS</button></div>
+    <br>
+    <div class="container end col-sm-12 text-center">
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sed aut quis!</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <hr class="red">
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+=======
     
     <!-- <link rel="stylesheet" href="css/magical-slate.css"> -->
 
@@ -30,5 +219,6 @@
         obj.birth = new Date(obj.birth);
         document.getElementById("demo").textContent = obj.name + ", " + obj.birth; 
 </script>
+>>>>>>> 1abda9aa413791dca078c145ddad73c3d2a24a82
 </body>
 </html>

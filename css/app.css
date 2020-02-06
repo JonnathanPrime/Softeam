@@ -1,0 +1,68 @@
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+#uptoLBH, #uptoIRS, #uptoGAH{
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 200px 10px;
+  position: absolute;
+  top: 14px;
+  left: 315px;
+}
+#tagLBHP, #tagLIRP, #tagLGAP{
+  background-color: black;
+}
+#tagLBHO, #tagLIRO, #tagLGAO{
+  background-color: burlywood;
+}
+body{
+  background-color: rgba(239,239,239,1);
+}
+h1{
+  color: orangered;
+}
+hr{
+  width: 250px;
+  size: 2em;
+  color: black;
+  background-color: black;
+}
+#myInput {
+  padding: 20px;
+  margin-top: -6px;
+  border: 0;
+  border-radius: 0;
+  background: #f1f1f1;
+}
+.membre{
+  background-color: orangered;
+  width: 80%;
+  color: white;
+}
+#inscris{
+  background-color: orangered;
+}
+.red{
+  color:orangered;
+}
+.end{
+  background-color: black;
+  width: 80%;
+  color: white;
+}
+.info{
+  background-color: white;
+}
+.filter{
+  background-color: white;
+  width: 14%;
+  padding: 5px;
+}
+.dropdown-menu{
+  transform: none;
+  top: none;
+}
